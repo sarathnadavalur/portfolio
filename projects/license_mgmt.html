@@ -30,17 +30,17 @@
 							<li>
 								<a href="#">Projects ↓ </a>
 								<ul>
-									<li><a href="#">Kafka Based - License Lifecycle Management</a></li>
-									<li><a href="#">Billing/Invoice Management</a></li>
-									<li>
-										<a href="#">Java Based Libraries</a>
-										<ul>
-											<li><a href="#">JWT Auth Token Auto Refresh - Redis</a></li>
-											<li><a href="#">Recovery/DLQ - Kafka</a></li>
-											<li><a href="#">Quartz Scheduler</a></li>
-											<li><a href="#">Maintenance Mitigation</a></li>
-										</ul>
-									</li>
+									<li><a href="../projects/license_mgmt.html">Kafka Based - License Lifecycle Management</a></li>
+									<li><a href="../projects/billing_statements.html">Billing/Invoice Management</a></li>
+									<!--<li>
+                                        <a href="#">Java Based Libraries</a>
+                                        <ul>
+                                            <li><a href="#">JWT Auth Token Auto Refresh - Redis</a></li>
+                                            <li><a href="#">Recovery/DLQ - Kafka</a></li>
+                                            <li><a href="#">Quartz Scheduler</a></li>
+                                            <li><a href="#">Maintenance Mitigation</a></li>
+                                        </ul>
+                                    </li>-->
 								</ul>
 							</li>
 						</ul>
@@ -59,7 +59,7 @@
 									<header class="style1">
 										<h2>Manage customer licenses using a Kafka Streaming application. Uses Redis and Caffeine</h2>
 									</header>
-									<ul class="style3">
+									<ul>
 										<li>This project is little advanced as it uses Kafka streaming and Kafka messaging technologies along with redis and caffeine caching wherever is necessary. It also houses factory and strategy interface design patterns to achieve efficient and clean code.</li>
 										<li>Customers uses the VoIP packages and services that we offer, most of the customers are of contact-center based, so they will have multiple users using cloud based voice services, PBX systems and more.</li>
 										<li>So, customers usually buy a lot of connections to accommodate all their users. For example 500 SKU A’s and 200 SKU B’s. And each SKU has its own capabilities.</li>
@@ -68,7 +68,7 @@
 									<a href="#" class="image centered">
 										<img src="../images/license_mgmt_pic.png" alt="" />
 									</a>
-									<ul class="style3">
+									<ul>
 										<li>Also, whenever there is a change in these licenses like adding more licenses, removing, upgrade/downgrade, swapping license capabilities etc., platform provides us the Kafka messages to a specific topic.</li>
 										<li>Usually there will be thousands of messages each minute and processing all of them will not be efficient. Also we don’t actually need to process all of these messages, so we use Kafka streaming application to process messages at the end of each time window and manipulate that message before further processin</li>
 									</ul>
@@ -76,8 +76,8 @@
 							</div>
 						<ul class="actions special">
 							<li><a href="../index.html" class="button style3 large">Home</a></li>
-							<li><a href="https://flowcv.com/resume/0onlhsa9cf" target="_blank" class="button style1 large">Resume</a></li>
-							<!--<li><a href="#" class="button style2 large">More Info</a></li>-->
+							<li><a href="../projects.html" class="button style1 large">Projects</a></li>
+							<li><a href="https://flowcv.com/resume/0onlhsa9cf" target="_blank" class="button style3 large">Resume</a></li>
 						</ul>
 					</div>
 				</div>
